@@ -1,0 +1,112 @@
+
+<!--<html>
+<head>
+  <title>PG Reservation - Payment Page</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='payment.css')}}">
+</head>
+<body>
+  <div class="headerdiv">
+  <div class="leftbar"></div>
+           
+  <div class="row">
+      
+      <div class="leftcol"></div>
+
+
+          <div class="rightcol">
+              <img src="homepage_mine.png">
+              <form action="{{url_for('afterbook')}}" method="POST" id="payment-form">
+                <h1>PG Reservation - Payment Page</h1> 
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br><br>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" required><br><br>
+                
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" required><br><br>
+                
+                <label for="expiry">Expiration Date:</label>
+                <input type="text" id="expiry" placeholder="MM/YYYY" required><br><br>
+                
+                <label for="cvv">CVV:</label>
+                <input type="password" id="cvv" required><br><br>
+                
+                <button type="submit">Pay Now</button>
+        
+              </form>
+          </div>
+      </div>
+  </div>
+  </body>
+
+</html>-->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PG Reservation - Payment Page</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='payment.css')}}">
+</head>
+
+<body>
+        <div class="headerdiv">
+
+
+        <div class="leftbar"></div>
+           
+            <div class="row">
+                
+                <div class="leftcol">
+                    <!--<form action="display.html" method="post" class="requirement">
+                        <h3>WELCOME TO EDIFICE LIVING !</h3>   
+                        <input type="text" name="Location" class="form" placeholder="Location" required>
+                        <input type="text" name="Budget" class="form" placeholder="Budget" required>
+                        
+                        <br>
+                        <input type="submit" name="Location" value="Search" id="submit">
+                    </form>-->
+                </div>
+
+
+                    <div class="rightcol">
+                        <!--<img src="homepage_mine.png">-->
+                        <form action="{{url_for('afterbook')}}" method="POST" id="payment-form">
+                          <h1>PG Reservation - Payment Page</h1> 
+                          <br>
+                          <br>
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" required><br><br>
+                          
+                          <label for="phone">Phone Number:</label>
+                          <input type="text" id="phone" required><br><br>
+                          
+                          <label for="card-number">Card Number:</label>
+                          <input type="text" id="card-number" required><br><br>
+                          
+                          <label for="expiry">Expiration Date:</label>
+                          <input type="text" id="expiry" placeholder="MM/YYYY" required><br><br>
+                          
+                          <label for="cvv">CVV:</label>
+                          <input type="password" id="cvv" required><br><br>
+                          
+                          <button type="submit">Pay Now</button>
+                  
+                        </form>
+                    </div>
+                </div>
+            </div>
+                
+               
+             
+         
+</body>
+
+</html>
